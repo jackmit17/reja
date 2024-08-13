@@ -9,19 +9,19 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
 // 2: Session code
-
 // 3: Views code
 app.set("views", "views");
 app.set("view engine", "ejs");
 
 // 4: Routing code
-app.get("/hello", function (req, res){
-    res.end("<h1>HELLO WORLD by Jack</h1>");
+app.post("/create-item", (req, res) => {
+   // TODO code with db here
 });
 
-app.get("/gift", function (req, res){
-    res.end("<h1>Siz sovgalar sahifasidasiz</h1>");
+app.get("/", function (req, res) {
+    res.render("harid");
 });
+
 
 const server = http.createServer(app);
 let PORT = 3000;
