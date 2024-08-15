@@ -1,0 +1,817 @@
+.frame {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #e5e5e5;
+}
+
+.frame .main_frame {
+  position: relative;
+  width: 1440px;
+  height: 1312px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 2px;
+
+  background: rgb(240, 240, 246);
+}
+
+.main_frame .left_frame {
+  position: relative;
+  width: 305px;
+  height: 1315px;
+  background: rgb(255, 255, 255);
+}
+
+.main_frame .midd_frame {
+  position: relative;
+  width: 970px;
+  height: 1259px;
+  margin-left: 30px;
+  margin-right: 27px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_frame .right_frame {
+  position: relative;
+  width: 108px;
+  height: 1315px;
+  background-color: white;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main_frame .left_frame .left_1 {
+  position: relative;
+  width: 228px;
+  height: 267px;
+  margin-top: 50px;
+  margin-left: 37px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_frame .left_frame .left_1 .left_1-1 {
+  position: relative;
+  width: 156px;
+  height: 142px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 29.46px;
+}
+
+.main_frame .left_frame .left_1 .left_1-2 {
+  position: relative;
+  width: 64px;
+  height: 20.85px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 123.6%;
+  text-transform: capitalize;
+
+  color: rgb(43, 43, 43);
+}
+
+.main_frame .left_frame .left_1 .left_1-3 {
+  position: relative;
+  width: 147.84px;
+  height: 24.31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 14px;
+  text-transform: capitalize;
+
+  color: rgb(118, 118, 118);
+}
+
+.main_frame .left_frame .left_1 .left-icons {
+  position: relative;
+  width: 238px;
+  margin-top: 19px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link_href {
+  text-decoration: none;
+  color: black;
+}
+
+.icon {
+  position: relative;
+  width: 24.99px;
+  height: 22.8px;
+  border-radius: 50%;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.icon-1 {
+  position: relative;
+  left: 29.17%;
+  right: 27.08%;
+  margin-top: 5.86px;
+}
+
+.main_frame .marginer {
+  position: relative;
+  width: 220px;
+  height: 0px;
+  margin-left: 40px;
+  margin-bottom: 18px;
+  margin-top: 39px;
+
+  border: 1.5px solid rgb(240, 240, 246);
+}
+
+.main_frame .left_frame .left_2 {
+  position: relative;
+  width: 221px;
+  height: 126px;
+  margin-left: 44px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_frame .left_frame .left_2 .left_age {
+  margin-top: 5px;
+  position: relative;
+  width: 100%;
+  height: 126px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main_frame .left_frame .left_2 .left_age .age {
+  position: relative;
+  width: 220px;
+  height: 24px;
+  display: flex;
+
+  color: rgb(43, 43, 43);
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+  width: fit-content;
+
+  background: rgb(255, 180, 0);
+}
+
+.main_frame .left_frame .left_2 .left_age .age-1 {
+  width: 19.09px;
+  height: 24px;
+  left: 248.91px;
+
+  color: rgb(43, 43, 43);
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  width: fit-content;
+
+  text-transform: capitalize;
+}
+
+.main_frame .left_frame .left_3 {
+  position: relative;
+  width: 221px;
+  height: 126px;
+  margin-left: 44px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_frame .left_frame .left_3 h1 {
+  position: relative;
+  width: 95px;
+  height: 22px;
+
+  color: rgb(43, 43, 43);
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 123.6%;
+  text-transform: capitalize;
+}
+
+.main_frame .left_frame .left_3 .languages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main_frame .left_frame .left_3 .languages .lang {
+  position: relative;
+  width: 49px;
+  height: 24px;
+
+  color: rgb(118, 118, 118);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.main_frame .left_frame .left_3 .percentage {
+  position: relative;
+  width: 49px;
+  height: 24px;
+
+  color: rgb(118, 118, 118);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.main_frame .left_frame .left_3 .progress_line {
+  position: relative;
+  width: 220px;
+  height: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  border: 0.5px solid rgb(255, 180, 0);
+  border-radius: 30px;
+}
+
+.main_frame .left_frame .left_3 .progress_line .prog_per {
+  position: relative;
+  width: 217px;
+  height: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 30px;
+  background: rgb(255, 180, 0);
+}
+
+.main_frame .left_frame .left_3 .progress_line .prog_per1 {
+  position: relative;
+  width: 208px;
+  height: 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  border-radius: 30px;
+  background: rgb(255, 180, 0);
+}
+
+.main_frame .left_frame .left_3 .progress_line .prog_per2 {
+  position: relative;
+  width: 190px;
+  height: 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  border-radius: 30px;
+  background: rgb(255, 180, 0);
+}
+
+.main_frame .left_frame .left_4 {
+  position: relative;
+  width: 221px;
+  height: 242px;
+  margin-left: 44px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_frame .left_frame .left_4 h1 {
+  position: relative;
+  width: 95px;
+  height: 22px;
+
+  color: rgb(43, 43, 43);
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 123.6%;
+  text-transform: capitalize;
+}
+
+.main_frame .left_frame .left_4 .skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main_frame .left_frame .left_4 .skills .skill {
+  position: relative;
+  width: 49px;
+  height: 24px;
+
+  color: rgb(118, 118, 118);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.main_frame .left_frame .left_4 .skills .percentage_skill {
+  position: relative;
+  width: 49px;
+  height: 24px;
+
+  color: rgb(118, 118, 118);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.main_frame .left_frame .left_4 .progress_line_skill {
+  position: relative;
+  width: 220px;
+  height: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  border: 0.5px solid rgb(255, 180, 0);
+  border-radius: 30px;
+}
+
+.main_frame .left_frame .left_4 .progress_line_skill .prog_per_skill {
+  position: relative;
+  width: 209px;
+  height: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 30px;
+  background: rgb(255, 180, 0);
+}
+
+.main_frame .left_frame .left_5 {
+  position: relative;
+  width: 186px;
+  height: 148px;
+  margin-left: 44px;
+}
+
+.left_frame .left_5 span {
+  margin-top: 25.75px;
+  position: relative;
+  width: 94px;
+  height: 22px;
+
+  color: rgb(43, 43, 43);
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 123.6%;
+  text-transform: capitalize;
+}
+
+.left_frame .left_5 .skills {
+  margin-top: 10px;
+}
+
+.left_frame .left_5 .extra_skills {
+  margin-left: 5px;
+  color: rgb(118, 118, 118);
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+
+  text-transform: capitalize;
+}
+
+/* MIDDLE FRAME */
+.midd_frame {
+  position: relative;
+  width: 970px;
+  height: 1259px;
+  margin-left: 30px;
+  margin-right: 27px;
+  display: flex;
+  flex-direction: column;
+}
+
+.midd_frame .midd_top {
+  position: relative;
+  width: 971px;
+  height: 454.33px;
+  display: flex;
+  flex-direction: row;
+
+  background: rgb(255, 255, 255);
+}
+
+.round_yellow {
+  margin-top: 38px;
+  margin-left: 36px;
+  position: absolute;
+  width: 16.02px;
+  height: 15.57px;
+}
+
+.round_green {
+  margin-top: 419px;
+  margin-left: 84px;
+  position: absolute;
+  width: 16.02px;
+  height: 15.57px;
+}
+
+.round_yellow-1 {
+  margin-top: 376px;
+  margin-left: 535px;
+  position: absolute;
+  width: 16.02px;
+  height: 15.57px;
+}
+
+.round_green-1 {
+  margin-top: 59px;
+  margin-left: 438px;
+  position: absolute;
+  width: 16.02px;
+  height: 15.57px;
+}
+
+.triangle_yellow {
+  margin-top: 424px;
+  margin-left: 917px;
+  position: absolute;
+  width: 16.02px;
+  height: 15.57px;
+}
+
+.rectangle_blue {
+  margin-top: 330px;
+  margin-left: 370px;
+  position: absolute;
+  width: 15.93px;
+  height: 15.65px;
+  transform: rotate(25.41deg);
+}
+
+.midd_frame .midd_top .midd_top_right {
+  margin-top: 99px;
+  margin-left: 56px;
+  position: relative;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.midd_top_right .top_workplace {
+  font-family: sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 123.6%;
+
+  color: rgb(43, 43, 43);
+}
+
+.midd_top_right .service_desc {
+  margin-top: 17px;
+  width: 425px;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+
+  color: rgb(118, 118, 118);
+}
+
+.midd_top_right a {
+  margin-top: 23px;
+  position: static;
+  width: 154px;
+  height: 51px;
+  text-decoration: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 5px;
+  background: rgb(255, 180, 0);
+}
+
+.midd_top_right span {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 54px;
+  text-transform: capitalize;
+
+  color: rgb(8, 8, 8);
+}
+
+.midd_top_left img {
+  margin-top: 8px;
+  margin-left: 50px;
+  position: absolute;
+  width: 326.06px;
+  height: 446.63px;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.midd_bot {
+  position: relative;
+  width: 970px;
+  height: 653px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.midd_bot .my_services {
+  margin-top: 150px;
+  position: relative;
+  width: 193px;
+  height: 40px;
+
+  font-family: sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 123.6%;
+  text-transform: capitalize;
+
+  color: rgb(43, 43, 43);
+}
+
+.midd_bot .serv_desc {
+  margin-top: 35px;
+  position: relative;
+  width: 438px;
+  height: 68px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+
+  color: rgb(118, 118, 118);
+}
+
+.midd_bot .service_boxes {
+  margin-top: 50px;
+  position: relative;
+  width: 970px;
+  height: 480px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.midd_bot .service_boxes .sevice_box {
+  margin-top: 20px;
+  position: relative;
+  width: 310px;
+  height: 225px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255, 255, 255);
+}
+
+.midd_bot .service_boxes .sevice_box img {
+  position: relative;
+  width: 65.88px;
+  height: 53.13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.midd_bot .service_boxes .sevice_box .box_name {
+  margin-top: 26px;
+  position: relative;
+  width: auto;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 123.6%;
+  text-transform: capitalize;
+
+  color: rgb(43, 43, 43);
+}
+
+.midd_bot .service_boxes .sevice_box .box_span {
+  margin-top: 15px;
+  position: relative;
+  width: 246px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+
+  color: rgb(118, 118, 118);
+}
+
+.midd_bot .service_boxes .sevice_box-1 {
+  margin-top: 20px;
+  position: relative;
+  width: 310px;
+  height: 225px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255, 255, 255);
+}
+
+.midd_bot .service_boxes .sevice_box-1 .box_name-1 {
+  margin-top: 2px;
+  position: relative;
+  width: auto;
+  height: 22px;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 123.6%;
+  text-transform: capitalize;
+
+  color: rgb(43, 43, 43);
+}
+
+.midd_bot .service_boxes .sevice_box-1 .box_span-1 {
+  margin-top: 10px;
+  position: relative;
+  width: 260px;
+  height: 78px;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+
+  color: rgb(118, 118, 118);
+}
+
+.midd_bot .service_boxes .sevice_box-1 a {
+  margin-top: 35px;
+  position: relative;
+  width: auto;
+  height: 14px;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14px;
+  text-decoration: none;
+
+  color: rgb(255, 180, 0);
+}
+
+/* RIGHT FRAME */
+.right_frame {
+  position: relative;
+  width: 108px;
+  height: 1315px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 4px 0px 10px 0px rgba(47, 122, 249, 0.1);
+
+  background: rgb(250, 250, 250);
+}
+
+.right_frame .sleep_btn {
+  margin-top: 52px;
+  position: relative;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.right_frame .home_btn {
+  margin-top: 177px;
+  position: relative;
+  width: 65px;
+  height: 24px;
+}
+
+.right_frame .buttons {
+  position: relative;
+  width: 65px;
+  height: 469px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right_frame .buttons .home_btn1 {
+  margin-top: 15px;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right_frame .buttons .service_btn {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right_frame .buttons .cv_btn {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right_frame .buttons .portfolio_btn {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right_frame .buttons .blog_btn {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right_frame .buttons .contact_btn {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
