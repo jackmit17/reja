@@ -115,12 +115,12 @@
   justify-content: space-between;
 }
 
-.link_href {
+.main_frame .link_href {
   text-decoration: none;
   color: black;
 }
 
-.icon {
+.main_frame .icon {
   position: relative;
   width: 24.99px;
   height: 22.8px;
@@ -128,7 +128,7 @@
   filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.icon-1 {
+.main_frame .icon-1 {
   position: relative;
   left: 29.17%;
   right: 27.08%;
@@ -257,8 +257,7 @@
   height: 4px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
 
   border: 0.5px solid rgb(255, 180, 0);
   border-radius: 30px;
@@ -361,8 +360,8 @@
   height: 4px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
+  justify-content: flex-start;
 
   border: 0.5px solid rgb(255, 180, 0);
   border-radius: 30px;
@@ -370,7 +369,58 @@
 
 .main_frame .left_frame .left_4 .progress_line_skill .prog_per_skill {
   position: relative;
-  width: 209px;
+  width: 208px;
+  height: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 30px;
+  background: rgb(255, 180, 0);
+}
+
+.main_frame .left_frame .left_4 .progress_line_skill .prog_per_skill-1 {
+  position: relative;
+  width: 204px;
+  height: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 30px;
+  background: rgb(255, 180, 0);
+}
+
+.main_frame .left_frame .left_4 .progress_line_skill .prog_per_skill-2 {
+  position: relative;
+  width: 189px;
+  height: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 30px;
+  background: rgb(255, 180, 0);
+}
+
+.main_frame .left_frame .left_4 .progress_line_skill .prog_per_skill-3 {
+  position: relative;
+  width: 187px;
+  height: 2px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center;
+  align-items: center; */
+
+  border-radius: 30px;
+  background: rgb(255, 180, 0);
+}
+.main_frame .left_frame .left_4 .progress_line_skill .prog_per_skill-4 {
+  position: relative;
+  width: 207px;
   height: 2px;
   display: flex;
   flex-direction: row;
@@ -388,7 +438,7 @@
   margin-left: 44px;
 }
 
-.left_frame .left_5 span {
+.main_frame .left_frame .left_5 span {
   margin-top: 25.75px;
   position: relative;
   width: 94px;
@@ -402,11 +452,11 @@
   text-transform: capitalize;
 }
 
-.left_frame .left_5 .skills {
+.main_frame .left_frame .left_5 .skills {
   margin-top: 10px;
 }
 
-.left_frame .left_5 .extra_skills {
+.main_frame .left_frame .left_5 .extra_skills {
   margin-left: 5px;
   color: rgb(118, 118, 118);
   font-family: sans-serif;
@@ -438,7 +488,7 @@
   background: rgb(255, 255, 255);
 }
 
-.round_yellow {
+.midd_frame .round_yellow {
   margin-top: 38px;
   margin-left: 36px;
   position: absolute;
@@ -446,7 +496,7 @@
   height: 15.57px;
 }
 
-.round_green {
+.midd_frame .round_green {
   margin-top: 419px;
   margin-left: 84px;
   position: absolute;
@@ -454,7 +504,7 @@
   height: 15.57px;
 }
 
-.round_yellow-1 {
+.midd_frame .round_yellow-1 {
   margin-top: 376px;
   margin-left: 535px;
   position: absolute;
@@ -462,7 +512,7 @@
   height: 15.57px;
 }
 
-.round_green-1 {
+.midd_frame .round_green-1 {
   margin-top: 59px;
   margin-left: 438px;
   position: absolute;
@@ -470,7 +520,7 @@
   height: 15.57px;
 }
 
-.triangle_yellow {
+.midd_frame .triangle_yellow {
   margin-top: 424px;
   margin-left: 917px;
   position: absolute;
@@ -478,7 +528,7 @@
   height: 15.57px;
 }
 
-.rectangle_blue {
+.midd_frame .rectangle_blue {
   margin-top: 330px;
   margin-left: 370px;
   position: absolute;
@@ -497,7 +547,7 @@
   flex-direction: column;
 }
 
-.midd_top_right .top_workplace {
+.midd_frame .midd_top_right .top_workplace {
   font-family: sans-serif;
   font-size: 48px;
   font-weight: 700;
@@ -506,7 +556,7 @@
   color: rgb(43, 43, 43);
 }
 
-.midd_top_right .service_desc {
+.midd_frame .midd_top_right .service_desc {
   margin-top: 17px;
   width: 425px;
   font-family: sans-serif;
@@ -518,7 +568,7 @@
   color: rgb(118, 118, 118);
 }
 
-.midd_top_right a {
+.midd_frame .midd_top_right a {
   margin-top: 23px;
   position: static;
   width: 154px;
@@ -533,7 +583,7 @@
   background: rgb(255, 180, 0);
 }
 
-.midd_top_right span {
+.midd_frame .midd_top_right span {
   font-family: sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -543,7 +593,7 @@
   color: rgb(8, 8, 8);
 }
 
-.midd_top_left img {
+.midd_frame .midd_top_left img {
   margin-top: 8px;
   margin-left: 50px;
   position: absolute;
@@ -554,7 +604,7 @@
   background-size: contain;
 }
 
-.midd_bot {
+.midd_frame .midd_bot {
   position: relative;
   width: 970px;
   height: 653px;
@@ -563,7 +613,7 @@
   justify-content: center;
   align-items: center;
 }
-.midd_bot .my_services {
+.midd_frame .midd_bot .my_services {
   margin-top: 150px;
   position: relative;
   width: 193px;
@@ -578,7 +628,7 @@
   color: rgb(43, 43, 43);
 }
 
-.midd_bot .serv_desc {
+.midd_frame .midd_bot .serv_desc {
   margin-top: 35px;
   position: relative;
   width: 438px;
@@ -598,7 +648,7 @@
   color: rgb(118, 118, 118);
 }
 
-.midd_bot .service_boxes {
+.midd_frame .midd_bot .service_boxes {
   margin-top: 50px;
   position: relative;
   width: 970px;
@@ -610,7 +660,7 @@
   align-content: space-between;
 }
 
-.midd_bot .service_boxes .sevice_box {
+.midd_frame .midd_bot .service_boxes .sevice_box {
   margin-top: 20px;
   position: relative;
   width: 310px;
@@ -620,9 +670,10 @@
   justify-content: center;
   align-items: center;
   background: rgb(255, 255, 255);
+  cursor: pointer;
 }
 
-.midd_bot .service_boxes .sevice_box img {
+.midd_frame .midd_bot .service_boxes .sevice_box img {
   position: relative;
   width: 65.88px;
   height: 53.13px;
@@ -633,7 +684,7 @@
   background-size: contain;
 }
 
-.midd_bot .service_boxes .sevice_box .box_name {
+.midd_frame .midd_bot .service_boxes .sevice_box .box_name {
   margin-top: 26px;
   position: relative;
   width: auto;
@@ -650,7 +701,7 @@
   color: rgb(43, 43, 43);
 }
 
-.midd_bot .service_boxes .sevice_box .box_span {
+.midd_frame .midd_bot .service_boxes .sevice_box .box_span {
   margin-top: 15px;
   position: relative;
   width: 246px;
@@ -667,7 +718,7 @@
   color: rgb(118, 118, 118);
 }
 
-.midd_bot .service_boxes .sevice_box-1 {
+.midd_frame .midd_bot .service_boxes .sevice_box-1 {
   margin-top: 20px;
   position: relative;
   width: 310px;
@@ -679,7 +730,7 @@
   background: rgb(255, 255, 255);
 }
 
-.midd_bot .service_boxes .sevice_box-1 .box_name-1 {
+.midd_frame .midd_bot .service_boxes .sevice_box-1 .box_name-1 {
   margin-top: 2px;
   position: relative;
   width: auto;
@@ -693,7 +744,7 @@
   color: rgb(43, 43, 43);
 }
 
-.midd_bot .service_boxes .sevice_box-1 .box_span-1 {
+.midd_frame .midd_bot .service_boxes .sevice_box-1 .box_span-1 {
   margin-top: 10px;
   position: relative;
   width: 260px;
@@ -708,7 +759,7 @@
   color: rgb(118, 118, 118);
 }
 
-.midd_bot .service_boxes .sevice_box-1 a {
+.midd_frame .midd_bot .service_boxes .sevice_box-1 a {
   margin-top: 35px;
   position: relative;
   width: auto;
