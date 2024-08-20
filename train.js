@@ -73,16 +73,33 @@
 
 // masalaning yechimi:
 
-function countLetter(letter, word) {
-  let count = 0;
-  for (let i = 0; i <= word.length; i++) {
-    if (word[i] == letter) {
-      count++;
-    }
-  }
-  return count;
+// function countLetter(letter, word) {
+//   let count = 0;
+//   for (let i = 0; i <= word.length; i++) {
+//     if (word[i] == letter) {
+//       count++;
+//     }
+//   }
+//   return count;
+// }
+
+// let result = countLetter('e', 'engineer');
+// console.log('Result:', result);
+
+// B-TASK: 
+
+// Shunday function tuzing, u 1ta string parametrga ega bolsin, hamda osha stringda qatnashgan raqamlarni sonini bizga return qilsin.
+// MASALAN countDigits("ad2a54y79wet0sfgb9") 7ni return qiladi.
+
+function countDigits(number) {
+  let count = 0
+  for (let i = 0; i <= number.length; i++) {
+        if (number[i] >= 0)  {
+          count++;
+        }
+      }
+      return count;
 }
 
-let result = countLetter('e', 'engineer');
-console.log('Result:', result);
-
+const result = countDigits("ad2a54y79wet0sfgb9");
+console.log("Result:", result);
