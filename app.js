@@ -30,7 +30,7 @@ app.post("/create-item", (req, res) => {
   console.log("user ertered /create-item")
   console.log(req.body);
   const new_reja = req.body.reja;
-  db.collection("plans").insertOne({new_reja}, (err, data) => {
+  db.collection("plans").insertOne({ reja: new_reja}, (err, data) => {
     if (err) {
       console.log(err);
       res.end("something went wrong");
