@@ -1,13 +1,19 @@
-// E-TASK: 
+/*F-TASK: 
 
-// Shunday function tuzing, u bitta string argumentni qabul qilib osha stringni teskari qilib return qilsin.
-// MASALAN: getReverse("hello") return qilsin "olleh"
+Shunday findDoublers function tuzing, unga faqat bitta string argument pass bolib, agar stringda bir hil harf qatnashgan bolsa true, qatnashmasa false qaytarishi kerak.
+MASALAN: getReverse("hello") return true return qiladi */
 
-function getReverse(word) {
-  let phase = word.split('').reverse('').join('')
-  if (phase !== undefined) {
-     return phase
+function findDoublers(word) {
+  for (let i = 0; i <= word.length; i++) {
+   const double = word[i];
+   for ( let m = i + 1; m <= word.length; m++) {
+    if (double === word[m]) {
+      return true;
+    }
+   }
   }
+  return false;
 }
-const result = getReverse("hello")
+
+const result = findDoublers("hello");
 console.log("Result:", result);
